@@ -51,14 +51,14 @@ class _IntroductionPageState extends State<IntroductionPage> {
                 height: 100,         
                 child: ClipRRect(
                   borderRadius:
-                      BorderRadius.circular(50.0), // Bo tròn góc của hình ảnh
+                      BorderRadius.circular(50.0), 
                   child: Image.network(
                     'https://scontent.fsgn14-1.fna.fbcdn.net/v/t39.30808-1/274778051_3116659858609853_3406031713003591658_n.jpg?stp=dst-jpg_p160x160&_nc_cat=104&ccb=1-7&_nc_sid=5740b7&_nc_ohc=I7v_ZqBFNoAAX8AAPoB&_nc_ht=scontent.fsgn14-1.fna&oh=00_AfApOP0-hA7wqndCs99SsYl97eL-damu0hacUKD_npaJ_Q&oe=65A52344',
                     fit: BoxFit.cover,
                   ),
                 )),
 
-            SizedBox(height: 16), // Khoảng cách giữa ảnh và văn bản
+            SizedBox(height: 16), 
             Text(
               'Welcome to my channel. MyLan in your area...',
               style: TextStyle(fontSize: 20),
